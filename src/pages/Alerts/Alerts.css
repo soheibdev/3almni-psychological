@@ -1,0 +1,10 @@
+.alerts-page { display: flex; flex-direction: column; gap: 20px; }
+.alerts-list { display: flex; flex-direction: column; gap: 12px; }
+.alert-card { display: flex; align-items: center; gap: 14px; padding: 18px; cursor: pointer; transition: all 0.2s; }
+.alert-unread { background: #FCFDFE; }
+.ac-icon { width: 42px; height: 42px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.ac-body { flex: 1; }
+.ac-body strong { font-size: 15px; display: block; margin-bottom: 2px; }
+.ac-body p { font-size: 14px; color: var(--color-text-secondary); line-height: 1.5; }
+.ac-date { font-size: 12px; color: #999; }
+.ac-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--color-danger); flex-shrink: 0; }

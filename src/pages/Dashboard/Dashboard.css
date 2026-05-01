@@ -1,0 +1,29 @@
+.dash-page { display: flex; flex-direction: column; gap: 24px; }
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.kpi { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px; gap: 8px; }
+.kpi-ic { width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+.kpi-val { font-size: 28px; font-weight: 700; color: var(--color-text); }
+.kpi-lbl { font-size: 13px; color: var(--color-text-secondary); font-weight: 600; }
+
+.charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.chart-card h3 { display: flex; align-items: center; gap: 8px; font-size: 16px; margin-bottom: 16px; }
+
+.bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.section-header h3 { display: flex; align-items: center; gap: 8px; font-size: 16px; }
+
+.alert-item { display: flex; gap: 10px; padding: 12px; border-radius: var(--radius-sm); margin-bottom: 10px; align-items: flex-start; }
+.alert-critical { background: var(--color-danger-light); color: var(--color-danger); }
+.alert-warning { background: rgba(232,168,56,0.08); color: var(--color-warning); }
+.alert-info { background: rgba(91,143,212,0.08); color: var(--color-info); }
+.alert-body strong { display: block; font-size: 14px; color: var(--color-text); }
+.alert-body p { font-size: 13px; color: var(--color-text-secondary); margin: 2px 0; }
+.alert-date { font-size: 11px; color: #999; }
+
+.student-row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-border); cursor: pointer; transition: background 0.2s; }
+.student-row:hover { background: var(--color-bg); border-radius: var(--radius-sm); padding: 10px 8px; margin: 0 -8px; }
+.student-row:last-child { border-bottom: none; }
+.sr-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--color-primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
+.sr-info { flex: 1; }
+.sr-info strong { font-size: 14px; display: block; }
+.sr-info span { font-size: 12px; color: var(--color-text-secondary); }

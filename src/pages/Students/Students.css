@@ -1,0 +1,30 @@
+.students-page { display: flex; flex-direction: column; gap: 20px; }
+.students-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.search-box { position: relative; width: 260px; }
+.search-box input { width: 100%; padding: 9px 14px 9px 36px; border-radius: var(--radius-sm); border: 1px solid var(--color-border); font-family: var(--font-body); font-size: 14px; outline: none; }
+.sb-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #999; }
+.filter-tabs { display: flex; gap: 6px; }
+.ftab { padding: 7px 16px; border-radius: 20px; border: 1px solid var(--color-border); background: white; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--color-text-secondary); transition: all 0.2s; }
+.ftab.active { background: var(--color-sidebar); color: white; border-color: var(--color-sidebar); }
+
+.students-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+.student-card { cursor: pointer; padding: 20px; }
+.risk-high { border-right: 3px solid var(--color-danger); }
+.risk-med { border-right: 3px solid var(--color-warning); }
+.risk-low { border-right: 3px solid var(--color-success); }
+
+.sc-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.sc-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--color-primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; }
+.sc-name { flex: 1; }
+.sc-name h4 { font-size: 16px; }
+.sc-name span { font-size: 12px; color: var(--color-text-secondary); }
+
+.sc-meters { display: flex; flex-direction: column; gap: 8px; }
+.sc-meter { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.sc-meter > span:first-child { min-width: 55px; color: var(--color-text-secondary); font-weight: 600; }
+.sc-bar { flex: 1; height: 6px; background: var(--color-bg); border-radius: 10px; overflow: hidden; }
+.sc-bar > div { height: 100%; border-radius: 10px; transition: width 0.5s ease; }
+.sc-pct { min-width: 36px; text-align: left; font-weight: 700; font-size: 13px; }
+
+.sc-footer { display: flex; justify-content: space-between; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--color-border); font-size: 13px; color: var(--color-text-secondary); }
+.sc-status { font-weight: 600; }

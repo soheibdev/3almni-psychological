@@ -1,0 +1,11 @@
+.rec-page { display: flex; flex-direction: column; gap: 20px; }
+.rec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.rec-grid h3 { display: flex; align-items: center; gap: 8px; font-size: 17px; margin-bottom: 16px; }
+.rec-card { margin-bottom: 14px; }
+.rec-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.rec-info { flex: 1; }
+.rec-info strong { font-size: 15px; display: block; }
+.rec-info span { font-size: 12px; color: var(--color-text-secondary); }
+.rec-text { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 12px; }
+.rec-foot { display: flex; justify-content: space-between; align-items: center; }
+.rec-date { font-size: 12px; color: #999; }

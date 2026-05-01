@@ -1,0 +1,10 @@
+.reports-page { display: flex; flex-direction: column; gap: 20px; }
+.reports-list { display: flex; flex-direction: column; gap: 16px; }
+.report-card { padding: 24px; }
+.rc-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--color-border); }
+.rc-header h3 { font-size: 17px; margin-bottom: 4px; }
+.rc-meta { font-size: 13px; color: var(--color-text-secondary); }
+.rc-actions { display: flex; gap: 8px; align-items: center; }
+.rc-section { margin-bottom: 12px; }
+.rc-section strong { font-size: 14px; color: var(--color-primary); display: block; margin-bottom: 4px; }
+.rc-section p { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
