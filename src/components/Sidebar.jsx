@@ -18,8 +18,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
-        <Brain size={28} />
-        <h1>عَلِّمْني</h1>
+        <img src="/logo.png" alt="علّمني" className="sidebar-logo-img" />
         <p>الأخصائي النفسي</p>
       </div>
       <nav className="sidebar-nav">

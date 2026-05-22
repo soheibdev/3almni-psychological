@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <div className="login-page">
       <div className="login-card card">
-        <div className="login-logo"><Brain size={44} color="var(--color-primary)" /><h1>عَلِّمْني</h1><h2>بوابة الأخصائي النفسي</h2></div>
+        <div className="login-logo"><img src="/logo.png" alt="علّمني" className="login-logo-img" /></div>
         {error && <div className="login-error"><AlertCircle size={16} />{error}</div>}
         <form onSubmit={handleLogin} className="login-form">
           <div className="form-group"><label>البريد الإلكتروني</label><div className="input-wrap"><Mail size={16} className="input-ic" /><input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="أدخل بريدك الإلكتروني" required /></div></div>
